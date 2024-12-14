@@ -1,0 +1,55 @@
+/* Fixed navbar at the top */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030; /* Ensures navbar is always on top */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Navbar background gradient */
+.navbar-dark.bg-dark {
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient from purple to blue */
+}
+
+/* Customizing links */
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for links */
+.navbar-nav .nav-link:hover {
+  color: #ffcc00 !important;
+  text-decoration: underline;
+}
+
+/* Active link color */
+.navbar-nav .nav-link.active {
+  color: #ffcc00 !important;
+  font-weight: bold;
+}
+
+/* Toggler button (for mobile view) */
+.navbar-toggler-icon {
+  background-color: #ffffff !important;
+}
+
+/* Adding some padding to avoid navbar covering the content */
+body {
+  padding-top: 60px;
+}
+
+/* Adjusting navbar for mobile view */
+@media (max-width: 767px) {
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+}

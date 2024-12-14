@@ -1,0 +1,106 @@
+/* About Page Styles */
+
+/* Header Section */
+.about-header {
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    color: white;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  /* About Me Section */
+  .about-me {
+    background-color: #f8f9fa;
+  }
+  
+  .about-me h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .about-me p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Skills Section */
+  .skills {
+    background-color: #f1f1f1;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skill-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .skill-card i {
+    color: #007bff;
+  }
+  
+  .skill-card h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .skill-card p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  /* Experience Section */
+  .experience .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience .card-body {
+    padding: 20px;
+  }
+  
+  .experience h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #007bff;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+  

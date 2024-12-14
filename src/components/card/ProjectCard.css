@@ -1,0 +1,41 @@
+/* Customize the card */
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .text-muted {
+    font-size: 0.8rem;
+  }
+  
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+  
